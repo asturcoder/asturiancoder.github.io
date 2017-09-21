@@ -1,0 +1,35 @@
+# Site settings
+title: Asturian Coder
+image: img/home-bg.jpg
+logo: img/favicon.png
+description: "Writing from time to time about Android Development and Software Engineering"
+baseurl: "blog-test"
+author: "Asturian Coder"
+url: "http://fjoglar.github.io/blog-test"
+twitter_username: felipejoglar
+github_username: fjoglar
+linkedin_username: fjoglar
+gaid: 
+disqus_site_id: 
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["README.md"]
+keep_files: []
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir: _sass
+  style: compressed
